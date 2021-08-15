@@ -1,4 +1,4 @@
-const { users } = require('../MOCK_DATA100.json');
+const users = require('../MOCK_DATA100.js');
 
 const resolvers = {
     Query: {
@@ -6,7 +6,6 @@ const resolvers = {
             return users;
         },
     },
-
     Mutation: {
         createUser(parent, args) {
             const newUser = args;

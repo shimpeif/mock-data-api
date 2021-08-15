@@ -8,7 +8,7 @@ const typeDefs = gql`
         gender: String!
         age: Int!
     }
-    
+
     type Query {
         getAllUsers: [User!]!
     }
@@ -19,3 +19,4 @@ const typeDefs = gql`
 `;
 
 module.exports = { typeDefs };
+
