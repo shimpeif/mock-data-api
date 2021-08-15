@@ -9,6 +9,8 @@
   "author": "Ernest Hemingway",
   "license": "MIT",
   "dependencies": {
+    "apollo-server-express": "^3.1.2",
+    "express": "^4.17.1",
     "graphql": "^15.5.1"
   }
 }
