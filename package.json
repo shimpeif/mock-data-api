@@ -1,0 +1,14 @@
+{
+  "name": "mock-data-api",
+  "version": "1.0.0",
+  "description": "simple mock data grqhql api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ernest Hemingway",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^15.5.1"
+  }
+}
