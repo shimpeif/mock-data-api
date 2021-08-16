@@ -5,7 +5,7 @@ const { typeDefs } = require('./Schema/TypeDefs');
 
 const PORT = 5050;
 
-async function startApolloServer() {
+const startApolloServer = async () => {
     const server = new ApolloServer({
         typeDefs,
         resolvers
