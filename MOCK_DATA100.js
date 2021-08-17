@@ -101,4 +101,4 @@ let users = [
   {"username":"biwaszkiewicz2r","email":"nmcgaugie2r@so-net.ne.jp","gender":"Genderqueer","age":60}
 ];
 
-module.exports = { users }
+module.exports = { users };

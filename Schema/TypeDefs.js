@@ -8,15 +8,16 @@ const typeDefs = gql`
         gender: String!
         age: Int!
     }
-
+    
+    # Queries
     type Query {
         getAllUsers: [User!]!
     }
     
+    # Mutations
     type Mutation {
         createUser(username: String!, email: String!, gender: String!, age: Int!): User!
     }
 `;
 
 module.exports = { typeDefs };
-
